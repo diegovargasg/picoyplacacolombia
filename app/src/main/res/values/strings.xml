@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pico y Placa en Colombia</string>
+    <!-- add car -->
+    <string name="vehiculo">Nombre del Vehiculo:</string>
+    <string name="placa">Ultimo dígito de la placa:</string>
+    <string name="icono">Icono del Vehiculo:</string>
+    <string name="btnSaveAddCar">Guardar</string>
+    <string name="btnCancelAddCar">Cancelar</string>
+    <string name="btnEliminarAddCar">Eliminar</string>
+    <!-- color cars available for pickup -->
+    <string-array name="color_cars">
+        <item>Automovil Azul</item>
+        <item>Automovil Rojo</item>
+        <item>Automovil Verde</item>
+        <item>Automovil Amarillo</item>
+        <item>Automovil Negro</item>
+        <item>Automovil Blanco</item>
+        <item>Camioneta Negra</item>
+        <item>Camioneta Blanca</item>
+        <item>Camioneta Azul</item>
+        <item>Camioneta Roja</item>
+        <item>Camioneta Verde</item>
+    </string-array>
+    <!-- currentCars -->
+    <string name="btnAddCar">Añadir Vehiculo</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtPlaca">Placa</string>
+    <string name="txtEstado">Estado</string>
+    <string name="txtIcon">Icon</string>
+    <string name="txtNumberCurrentCars">Mostrando 0 vehiculos</string>
+</resources>

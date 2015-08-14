@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:id="@+id/widget_layout" android:background="@drawable/bk">
+	<ImageView android:id="@+id/cityImg" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:layout_marginTop="7dp" />
+	<TextView android:id="@+id/touchBegin" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text=""
+		android:textColor="#263744" android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true" android:layout_marginTop="5dp" />
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		>
+		<TextView android:layout_height="wrap_content" android:id="@+id/numero"
+			android:text="" android:textColor="#263744" android:textSize="27dp"
+			android:layout_width="0dp" android:layout_gravity="center"
+			android:gravity="center_horizontal" android:layout_marginTop="10dp"
+			android:layout_weight="1" />
+		<RelativeLayout android:layout_height="fill_parent"
+			android:layout_width="0dp" android:layout_marginTop="20dp"
+			android:layout_weight="1">
+			<ImageView android:id="@+id/car" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_centerVertical="true"
+				android:layout_centerHorizontal="true" />
+			<ImageView android:id="@+id/car_block"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:layout_centerHorizontal="true" android:layout_marginBottom="5dp" />
+		</RelativeLayout>
+	</LinearLayout>
+</RelativeLayout>
