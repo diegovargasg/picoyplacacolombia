@@ -32,10 +32,11 @@ public class DbHelper extends SQLiteOpenHelper{
 	Version 12, 19/01/2014 cambio horario en varias ciudades
 	Version 13, 05/02/2014 cambio horario en Medellin
 	Version 14, 01/08/2014 cambio horario en Varias Ciudades
+	Version 15, 26/08/2015 cambio horario en Medellin
 	*/
 	
 	protected static final String DB_NAME = "picoyplaca";
-	protected static final int DB_VERSION = 15;
+	protected static final int DB_VERSION = 16;
 	/**Table City*/
 	protected static final String DB_TABLE_CIUDAD = "ciudad";
 	protected static final String ID_CIUDAD = "_id";
@@ -99,7 +100,7 @@ public class DbHelper extends SQLiteOpenHelper{
 		String[] picoyplacaBuc = {"3-4", "5-6", "7-8", "9-0", "1-2", "null", "null"};
 		String[] picoyplacaCal = {"7-8", "9-0", "1-2", "3-4", "5-6", "null", "null"};
 		String[] picoyplacaCar = {"1-2", "3-4", "5-6", "7-8", "9-0", "null", "null"};
-		String[] picoyplacaMed = {"2-3-4-5", "6-7-8-9", "0-1-2-3", "4-5-6-7", "8-9-0-1", "null", "null"};
+		String[] picoyplacaMed = {"4-5-6-7", "8-9-0-1", "2-3-4-5", "6-7-8-9", "0-1-2-3", "null", "null"};
 		String[][] citiesPP = {picoyplacaBar, picoyplacaBog, picoyplacaBuc, picoyplacaCal, picoyplacaCar, picoyplacaMed};
 		
 		int j=0;
