@@ -36,7 +36,7 @@ public class DbHelper extends SQLiteOpenHelper{
 	*/
 	
 	protected static final String DB_NAME = "picoyplaca";
-	protected static final int DB_VERSION = 16;
+	protected static final int DB_VERSION = 23;
 	/**Table City*/
 	protected static final String DB_TABLE_CIUDAD = "ciudad";
 	protected static final String ID_CIUDAD = "_id";
@@ -98,7 +98,7 @@ public class DbHelper extends SQLiteOpenHelper{
 		String[] picoyplacaBar = {"null", "null", "null", "null", "null", "null", "null"};
 		String[] picoyplacaBog = {"5-6-7-8", "9-0-1-2", "3-4-5-6", "7-8-9-0", "1-2-3-4", "null", "null"};
 		String[] picoyplacaBuc = {"3-4", "5-6", "7-8", "9-0", "1-2", "null", "null"};
-		String[] picoyplacaCal = {"7-8", "9-0", "1-2", "3-4", "5-6", "null", "null"};
+		String[] picoyplacaCal = {"3-4", "5-6", "7-8", "9-0", "1-2", "null", "null"};
 		String[] picoyplacaCar = {"1-2", "3-4", "5-6", "7-8", "9-0", "null", "null"};
 		String[] picoyplacaMed = {"4-5-6-7", "8-9-0-1", "2-3-4-5", "6-7-8-9", "0-1-2-3", "null", "null"};
 		String[][] citiesPP = {picoyplacaBar, picoyplacaBog, picoyplacaBuc, picoyplacaCal, picoyplacaCar, picoyplacaMed};
