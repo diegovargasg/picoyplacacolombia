@@ -100,7 +100,7 @@ public class DbHelper extends SQLiteOpenHelper{
 		String[] picoyplacaBuc = {"3-4", "5-6", "7-8", "9-0", "1-2", "null", "null"};
 		String[] picoyplacaCal = {"3-4", "5-6", "7-8", "9-0", "1-2", "null", "null"};
 		String[] picoyplacaCar = {"1-2", "3-4", "5-6", "7-8", "9-0", "null", "null"};
-		String[] picoyplacaMed = {"4-5-6-7", "8-9-0-1", "2-3-4-5", "6-7-8-9", "0-1-2-3", "null", "null"};
+		String[] picoyplacaMed = {"0-1-2-3", "4-5-6-7", "8-9-0-1", "2-3-4-5", "6-7-8-9", "null", "null"};
 		String[][] citiesPP = {picoyplacaBar, picoyplacaBog, picoyplacaBuc, picoyplacaCal, picoyplacaCar, picoyplacaMed};
 		
 		int j=0;

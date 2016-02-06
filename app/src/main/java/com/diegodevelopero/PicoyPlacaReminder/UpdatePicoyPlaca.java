@@ -40,7 +40,8 @@ public class UpdatePicoyPlaca extends AsyncTask<String, Void, String>{
 
 	@Override
 	protected String doInBackground(String... params) {
-		
+		/*
+		// We no longer support this update service
 		//get the dbVersionMobile
 		dbAdapter = new DbAdapter(this.context);
 		dbVersionCursor = dbAdapter.getDbVersion();
@@ -73,7 +74,7 @@ public class UpdatePicoyPlaca extends AsyncTask<String, Void, String>{
 	    				UrlEncodedFormEntity entUpdate = new UrlEncodedFormEntity(paramsPostUpdate, HTTP.UTF_8);
 	    				httpPost.setEntity(entUpdate);
 	    				HttpResponse responseUpdate = httpClient.execute(httpPost);
-	    				if(responseUpdate.getStatusLine().getStatusCode() == HttpStatus.SC_OK){
+	    				if(responseUpdate.getStatusLine().getStatusCode() == HttpStatus.SC_OK){*/
 	    		        	//update the dbVersionMobile with the string that we received from the service
 	    					/**
 	    					 * The answer of the service is as the following code
@@ -89,7 +90,7 @@ public class UpdatePicoyPlaca extends AsyncTask<String, Void, String>{
 							the first parameter is delimited with | which means the city and the rest of the values
 							are organized by days. take into account that the week starts with Monday as 1
 	    					 * */
-	    					dbNewParams = EntityUtils.toString(responseUpdate.getEntity());
+	    					/*dbNewParams = EntityUtils.toString(responseUpdate.getEntity());
 	    					String[] arr1 = dbNewParams.split("\\|");
 	    					String cityId = arr1[0];
 	    					String[] arr2 = arr1[1].split(",");
@@ -140,7 +141,7 @@ public class UpdatePicoyPlaca extends AsyncTask<String, Void, String>{
 			httpClient.execute(httpPostAnalytics);
 		} catch (ClientProtocolException e) {
 	    } catch (IOException e) {
-	    }
+	    }*/
 		
 		return flagUpdate;
 	}
