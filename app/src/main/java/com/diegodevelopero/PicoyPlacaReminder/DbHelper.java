@@ -36,7 +36,7 @@ public class DbHelper extends SQLiteOpenHelper{
 	*/
 	
 	protected static final String DB_NAME = "picoyplaca";
-	protected static final int DB_VERSION = 23;
+	protected static final int DB_VERSION = 25;
 	/**Table City*/
 	protected static final String DB_TABLE_CIUDAD = "ciudad";
 	protected static final String ID_CIUDAD = "_id";
